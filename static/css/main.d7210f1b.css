@@ -118,7 +118,7 @@ body {
   margin-bottom: 1rem;
 }
 .empty-div {
-  height: 10.5rem;
+  height: 9.5rem;
 }
 .navigation-bar li a:hover {
   font-weight: 500;
@@ -223,6 +223,7 @@ select {
   border-color: transparent;
   border-bottom: 1px solid #a9a9a9;
   color: #fff;
+  text-align: right;
 }
 input:focus {
   outline: none;
