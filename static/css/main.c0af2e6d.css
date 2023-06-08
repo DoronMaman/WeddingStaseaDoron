@@ -148,7 +148,7 @@ body {
 }
 .container {
   background-attachment: fixed;
-  background-image: url(./static/media/wedding.787225d1f2bf296e0f26.jpg);
+  background-image: url(../media/wedding.787225d1f2bf296e0f26.jpg);
   background-repeat: no-repeat;
   border-radius: 1rem;
   overflow: scroll;
