@@ -152,7 +152,7 @@ body {
 }
 .container {
   background-attachment: fixed;
-  background-image: url(../media/wedding.787225d1f2bf296e0f26.jpg);
+  background-image: url(../media//wedding.787225d1f2bf296e0f26.jpg);
   background-repeat: no-repeat;
   border-radius: 1rem;
   overflow: scroll;
@@ -505,7 +505,7 @@ input {
     top: 11rem;
   }
 }
-@media only screen and (min-width: 340px) and (max-width: 375px) and (min-height: 640px) and (max-height: 739px) {
+@media only screen and (min-width: 340px) and (max-width: 375px) and (min-height: 620px) and (max-height: 739px) {
   .size-container-before {
     background-size: 23rem 46rem;
     height: 46rem;
@@ -560,4 +560,4 @@ input {
     top: 16rem;
   }
 }
-/*# sourceMappingURL=main.4ec2f931.css.map*/
+/*# sourceMappingURL=main.f9d3d90b.css.map*/
