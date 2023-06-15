@@ -560,7 +560,30 @@ input {
     top: 16rem;
   }
 }
-@media only screen and (min-width: 300px) and (max-width:340px) and (min-height:500px)and (max-height:600px){
+@media only screen and (min-width: 300px) and (max-width:340px) and (min-height:500px)and (max-height:569px){
+  .size-container-before {
+    height: 35rem;
+    background-size: 23rem 35.2rem;
+  }
+  .wrapper {
+    position: relative;
+    top: 1rem;
+  }
+  .size-container-after {
+    height: 17rem;
+    background-size: 20rem 17rem;
+
+}
+.buttonNotJoin{
+  top:13rem;
+}
+
+.buttonOpenForm {
+  top:13rem;
+}
+
+}
+@media only screen and (min-width: 300px) and (max-width:340px) and (min-height:570px)and (max-height:599px){
   .size-container-before {
     height: 35rem;
     background-size: 23rem 35.2rem;
@@ -572,6 +595,7 @@ input {
   .size-container-after {
     height: 21rem;
     background-size: 20rem 21rem;
+
 }
 .buttonNotJoin{
   top:13rem;
