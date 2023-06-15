@@ -60,6 +60,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.wrapper-place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 ::-webkit-input-placeholder {
   color: red;
   opacity: 1;
@@ -120,7 +124,7 @@ body {
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .wrapper-name-guest {
   margin-bottom: 1rem;
@@ -158,7 +162,7 @@ body {
 }
 .size-container-before {
   background-size: 24rem 41.6rem;
-  height: 42rem;
+  height: 70rem;
 }
 .size-container-after {
   background-size: 24rem 30rem;
@@ -176,32 +180,45 @@ body {
   color: #fff;
 }
 .button {
+  background-color: initial;
   border: 2px solid;
   color: #1ccab0;
   color: hsl(var(--cr_puerto-rico));
-  margin: 4px 2px;
-  padding: 15px 32px;
-}
-.button,
-.buttonOpenForm {
-  background-color: initial;
   cursor: pointer;
   display: inline-block;
   font-family: Playfair Display SC, serif;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 5px;
+  margin: 4px 2px;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   width: 9rem;
 }
 .buttonOpenForm {
+  left: -1rem;
+}
+.buttonNotJoin,
+.buttonOpenForm {
+  background-color: #625e9e38;
   border: 2px solid #1ccab0;
-  color: #000;
-  left: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Playfair Display SC, serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 5px;
   padding: 14px 34px;
   position: relative;
-  top: 20rem;
+  text-align: center;
+  text-decoration: none;
+  top: 19rem;
+  width: 5rem;
+}
+.buttonNotJoin {
+  left: 2rem;
 }
 .btn-.buttonOpenForm:hover {
   box-shadow: 4px 4px 6px 0 hsla(0, 0%, 100%, 0.5),
@@ -342,11 +359,9 @@ input {
   max-width: 20em;
 }
 .form {
-  grid-gap: 0.8em;
-  grid-gap: var(--size-300);
   color: #fff;
   color: var(--page_cr);
-  display: grid;
+  display: flex;
   gap: 0.8em;
   gap: var(--size-300);
   width: 100%;
@@ -426,4 +441,87 @@ input {
   transition: height 90ms linear 90ms, opacity var(--tn-1);
   width: 100%;
 }
-/*# sourceMappingURL=main.c0af2e6d.css.map*/
+@media only screen and (width: 375px) {
+  .size-container-before {
+    background-size: 24rem 41.6rem;
+    height: 42rem;
+  }
+  .size-container-after {
+    background-size: 24rem 27rem;
+    height: 27rem;
+  }
+  .wrapper {
+    position: relative;
+    top: 10rem;
+  }
+  .button {
+    font-size: 10px;
+    width: 6rem;
+  }
+}
+@media only screen and (max-width: 414px) and (min-width: 412px) {
+  .size-container-before {
+    background-size: 26rem 50.6rem;
+    height: 51rem;
+  }
+  .size-container-after {
+    background-size: 26rem 35rem;
+    height: 35rem;
+  }
+  .buttonNotJoin,
+  .buttonOpenForm {
+    top: 29rem;
+  }
+  .wrapper {
+    position: relative;
+    top: 17rem;
+  }
+}
+@media only screen and (max-width: 393px) and (min-width: 390px) {
+  .size-container-before {
+    background-size: 26rem 50.6rem;
+    height: 47.5rem;
+  }
+  .size-container-after {
+    background-size: 24rem 35rem;
+    height: 35rem;
+  }
+  .buttonNotJoin,
+  .buttonOpenForm {
+    top: 27rem;
+  }
+  .wrapper {
+    position: relative;
+    top: 16rem;
+  }
+}
+@media only screen and (width: 360px) {
+  .size-container-before {
+    background-size: 23rem 46rem;
+    height: 46rem;
+  }
+  .wrapper {
+    position: relative;
+    top: 11rem;
+  }
+}
+@media only screen and (width: 280px) {
+  .size-container-before {
+    background-size: 18rem 40.6rem;
+    height: 40.5rem;
+  }
+  .buttonOpenForm {
+    left: -1rem;
+  }
+  .buttonNotJoin,
+  .buttonOpenForm {
+    font-size: 10px;
+    top: 12rem;
+    width: 2rem;
+  }
+  .buttonNotJoin {
+    direction: rtl;
+    left: 1rem;
+  }
+}
+/*# sourceMappingURL=main.31a255ac.css.map*/
