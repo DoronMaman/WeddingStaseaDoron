@@ -152,7 +152,7 @@ body {
 }
 .container {
   background-attachment: fixed;
-  background-image: url(../media//wedding.787225d1f2bf296e0f26.jpg);
+  background-image: url(../media/wedding.787225d1f2bf296e0f26.jpg);
   background-repeat: no-repeat;
   border-radius: 1rem;
   overflow: scroll;
@@ -505,26 +505,23 @@ input {
     top: 11rem;
   }
 }
-@media only screen and (min-width: 340px) and (max-width:375px) and (min-height:640px)and (max-height:739px){
+@media only screen and (min-width: 340px) and (max-width: 375px) and (min-height: 640px) and (max-height: 739px) {
   .size-container-before {
-    height: 46rem;
     background-size: 23rem 46rem;
+    height: 46rem;
   }
   .wrapper {
     position: relative;
     top: 7rem;
   }
   .size-container-after {
-    height: 25rem;
     background-size: 24rem 25rem;
-}
-.buttonNotJoin{
-  top:16rem;
-}
-
-.buttonOpenForm {
-  top:16rem;
-}
+    height: 25rem;
+  }
+  .buttonNotJoin,
+  .buttonOpenForm {
+    top: 16rem;
+  }
 }
 @media only screen and (width: 280px) {
   .size-container-before {
@@ -545,26 +542,22 @@ input {
     left: 1rem;
   }
 }
-@media only screen and (min-width: 320px) and (max-width:340px) and (min-height:640px)and (max-height:680px){
+@media only screen and (min-width: 320px) and (max-width: 340px) and (min-height: 640px) and (max-height: 680px) {
   .size-container-before {
-    height: 46rem;
     background-size: 23rem 46rem;
+    height: 46rem;
   }
   .wrapper {
     position: relative;
     top: 7rem;
   }
   .size-container-after {
-    height: 25rem;
     background-size: 24rem 25rem;
+    height: 25rem;
+  }
+  .buttonNotJoin,
+  .buttonOpenForm {
+    top: 16rem;
+  }
 }
-.buttonNotJoin{
-  top:16rem;
-}
-
-.buttonOpenForm {
-  top:16rem;
-}
-
-}
-/*# sourceMappingURL=main.c3132100.css.map*/
+/*# sourceMappingURL=main.4ec2f931.css.map*/
