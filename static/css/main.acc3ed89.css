@@ -434,6 +434,8 @@ input {
   display: flex;
   gap: 0.8em;
   gap: var(--size-300);
+  position: relative;
+  top: 3rem;
   width: 100%;
 }
 .form__linput {
@@ -470,7 +472,7 @@ input {
 .form__input:valid + .form__label {
   color: #1ccab0;
   color: var(--form__input_border-cr_active);
-  top: 0;
+  top: -57%;
 }
 .form__input:focus + .form__label:before,
 .form__input:valid + .form__label:before {
@@ -482,7 +484,7 @@ input {
   font-size: 12px;
   font-weight: 500;
   font-weight: var(--ft-wt-500);
-  left: 0.9em;
+  left: 1.9em;
   letter-spacing: 1px;
   padding-inline: 0.5em;
   padding-inline: var(--size-200);
@@ -519,9 +521,10 @@ input {
   box-sizing: border-box;
   color: #e74c3c;
   cursor: pointer;
+  direction: rtl;
   display: flex;
   font-family: Montserrat, sans-serif;
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: 400;
   font-weight: 500;
   line-height: 1;
@@ -590,10 +593,14 @@ input {
   width: 50%;
 }
 .popup__image {
+  background-image: url(../media/ring.a2c198442ea039dfa098.png);
+  background-position: 50%;
+  background-size: cover;
   display: block;
-  height: 64px;
-  margin: 0 auto;
-  width: 64px;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4rem;
 }
 .popup__text {
   color: #2b2c34;
@@ -626,4 +633,4 @@ input {
   font-family: cursive;
   font-size: 1.3rem;
 }
-/*# sourceMappingURL=main.48a1e86c.css.map*/
+/*# sourceMappingURL=main.acc3ed89.css.map*/
