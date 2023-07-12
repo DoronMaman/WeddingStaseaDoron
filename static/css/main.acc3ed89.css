@@ -520,7 +520,7 @@ input {
   border-radius: 0.6em;
   box-sizing: border-box;
   color: #e74c3c;
-  cursor: pointer;
+  cursor: no-drop;
   direction: rtl;
   display: flex;
   font-family: Montserrat, sans-serif;
