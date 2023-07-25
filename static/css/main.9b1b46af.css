@@ -57,7 +57,6 @@ code {
 body {
   -webkit-animation: gradient 15s ease infinite;
   animation: gradient 15s ease infinite;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   height: 100vh;
   margin: 0;
@@ -107,7 +106,7 @@ body {
 }
 .navigation-bar {
   background: rgba(0, 0, 0, 0.5);
-  height: 70px;
+  height: 6rem;
   position: fixed;
   text-align: center;
   top: 0;
@@ -180,10 +179,13 @@ body {
   float: right;
 }
 .container {
+  background-image: url(../media/wedding.787225d1f2bf296e0f26.jpg);
+}
+.container,
+.wedding-page {
   -webkit-animation: fadeInBackground 2s ease-in-out;
   animation: fadeInBackground 2s ease-in-out;
   background-attachment: fixed;
-  background-image: url(../media/wedding.787225d1f2bf296e0f26.jpg);
   background-repeat: no-repeat;
   border-radius: 1rem;
   overflow: scroll;
@@ -191,6 +193,10 @@ body {
   top: 0;
   width: 100%;
 }
+.wedding-page {
+  background-image: url(../media/doronStasea.c1b18fa75ab28fe0ae56.png);
+}
+
 @-webkit-keyframes fadeInBackground {
   0% {
     opacity: 0;
@@ -273,7 +279,6 @@ body {
 .buttonOpenForm {
   background-color: #625e9e38;
   border: 2px solid #1ccab0;
-  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-family: Playfair Display SC, serif;
@@ -285,6 +290,7 @@ body {
   text-decoration: none;
 }
 .buttonNotJoin {
+  color: #fff;
   left: 2rem;
   position: relative;
   top: 19rem;
@@ -315,8 +321,6 @@ body {
   font-family: untitled-font-1;
 }
 h1 {
-  color: #1ccab0;
-  color: hsl(var(--cr_puerto-rico));
   font-size: 18px;
   line-height: 20px;
 }
@@ -327,7 +331,6 @@ h2 {
   font-weight: 400;
 }
 h2 {
-  color: #b5b5b5;
   font-size: 16px;
   line-height: 15px;
 }
@@ -446,12 +449,9 @@ input {
 }
 .form__input {
   background: inherit;
-  border: 2px solid #556172;
-  border: 2px solid var(--form__input_border-cr);
+  border: 2px solid;
   border-radius: 0.5em;
   border-radius: var(--size-200);
-  color: #fff;
-  color: var(--form__input_txt-cr);
   font-weight: 500;
   font-weight: var(--ft-wt-500);
   height: 6px;
@@ -520,7 +520,7 @@ input {
   border-radius: 0.6em;
   box-sizing: border-box;
   color: #e74c3c;
-  cursor: no-drop;
+  cursor: pointer;
   direction: rtl;
   display: flex;
   font-family: Montserrat, sans-serif;
@@ -533,6 +533,9 @@ input {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+.visibaleButton {
+  opacity: 0.5;
 }
 .btn:focus,
 .btn:hover {
@@ -592,16 +595,7 @@ input {
   padding: 32px 64px;
   width: 50%;
 }
-.popup__image {
-  background-image: url(../media/ring.a2c198442ea039dfa098.png);
-  background-position: 50%;
-  background-size: cover;
-  display: block;
-  height: 4rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 4rem;
-}
+
 .popup__text {
   color: #2b2c34;
   margin-top: 24px;
@@ -633,4 +627,27 @@ input {
   font-family: cursive;
   font-size: 1.3rem;
 }
-/*# sourceMappingURL=main.acc3ed89.css.map*/
+.error-message-guest {
+  color: red;
+}
+.wedding-title {
+  font-size: 3rem;
+}
+.wedding-stasea-doron,
+.wedding-title {
+  color: #4b5532;
+  font-family: -webkit-body;
+}
+.wedding-stasea-doron {
+  font-size: 1.9rem;
+}
+.title-header-page {
+  color: #fff;
+  font-family: Abril Fatface, cursive !important;
+  font-size: 1.8rem;
+}
+.title-second-page {
+  color: #fff;
+  font-size: 21px;
+}
+/*# sourceMappingURL=main.9b1b46af.css.map*/
