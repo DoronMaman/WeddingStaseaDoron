@@ -277,7 +277,7 @@ body {
 }
 .buttonNotJoin,
 .buttonOpenForm {
-  background-color: #625e9e38;
+  background-color: #625e9ed6;
   border: 2px solid #1ccab0;
   cursor: pointer;
   display: inline-block;
@@ -414,8 +414,8 @@ input {
   --page_cr: hsl(var(--cr_white));
   --page_bd: hsl(var(--cr_big-stone));
   --page_font: var(--ft-fam-primary);
-  --form__input_border-cr: hsl(var(--cr_shuttle-gray));
-  --form__input_border-cr_active: hsl(var(--cr_puerto-rico));
+  --form__input_border-cr: rgb(75, 85, 50);
+  --form__input_border-cr_active: rgb(75, 85, 50);
   --form__input_txt-cr: hsl(var(--cr_white));
 }
 .page {
