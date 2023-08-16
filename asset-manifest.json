@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b1b46af.css",
-    "main.js": "/static/js/main.2e25c953.js",
+    "main.css": "/static/css/main.e6b60c8a.css",
+    "main.js": "/static/js/main.7e8900b1.js",
     "static/js/787.4ff3cea1.chunk.js": "/static/js/787.4ff3cea1.chunk.js",
     "static/media/wedding.jpg": "/static/media/wedding.787225d1f2bf296e0f26.jpg",
     "static/media/doronStasea.png": "/static/media/doronStasea.c1b18fa75ab28fe0ae56.png",
@@ -9,12 +9,12 @@
     "static/media/S-D.png": "/static/media/S-D.b289e3899dca18a9aca1.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.9b1b46af.css.map": "/static/css/main.9b1b46af.css.map",
-    "main.2e25c953.js.map": "/static/js/main.2e25c953.js.map",
+    "main.e6b60c8a.css.map": "/static/css/main.e6b60c8a.css.map",
+    "main.7e8900b1.js.map": "/static/js/main.7e8900b1.js.map",
     "787.4ff3cea1.chunk.js.map": "/static/js/787.4ff3cea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b1b46af.css",
-    "static/js/main.2e25c953.js"
+    "static/css/main.e6b60c8a.css",
+    "static/js/main.7e8900b1.js"
   ]
 }
